@@ -8,9 +8,14 @@ class ListNode:
 class Solution:
     def removeNthFromEnd(self, head: [ListNode], n: int) -> [ListNode]:
 
-        l = list(head)
-        l.pop(-n)
-        return l
+        x=[]
+        itr = head
+        while itr:
+            x.append(itr.val)
+            itr = itr.next
+
+        x.pop(-n)
+        return x
 
 
 S = Solution()
