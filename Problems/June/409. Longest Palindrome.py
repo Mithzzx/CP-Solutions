@@ -1,5 +1,5 @@
 class Solution:
-    def longestPalindrome(self, s: str) -> int:
+    def longestPalindrome(self, s: str)
         lis = {x: int(s.count(x)) for x in s}
         l = list(lis.values())
         single = True
