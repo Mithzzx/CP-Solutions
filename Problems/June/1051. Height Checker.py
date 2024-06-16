@@ -7,3 +7,4 @@ class Solution:
             if i != exp[ind]:
                 x += 1
         return x
+
