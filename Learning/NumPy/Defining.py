@@ -23,4 +23,3 @@ print(a.itemsize)
 
 # Total Size
 print(b.size*b.itemsize)
-print(b.nbytes)
