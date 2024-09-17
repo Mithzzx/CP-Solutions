@@ -14,7 +14,7 @@ for i in x:
     auto.press('enter')
 
     s = str(c) + ":| Line" + str(c + 4) + '\n'
-    c += 1
+    c = c + 1
 
     p = c / l * 100
     b = ("Loading.. " + str("%.4f" % p) + '%')
