@@ -1,34 +1,16 @@
-class Solution:
-    def minimumPushes(self, word: str) -> int:
-        word = "abcde"
-        d = {'a': 1}
-        print(d['a'])
-        for i in word:
-            if i in d:
-                d[i] += 1
-            else:
-                d[i] = 1
+import os
 
-        print(d)
-        dd = {}
-        l = []
-        for key in d:
-            if d[key] in dd:
-                dd[d[key]].append(key)
-            else:
-                dd[d[key]] = [key]
-                l.append(d[key])
-        l.sort(reverse=True)
-        print(dd, l)
+def list_directory(path='.'):
+    try:
+        # List all files and directories in the current directory (or provided path)
+        for item in os.listdir(path):
+            print(item)
+    except FileNotFoundError:
+        print(f"Error: The directory '{path}' does not exist.")
+    except PermissionError:
+        print(f"Error: Permission denied for directory '{path}'.")
 
-        count = 0
-        x = 0
-        print(9 // 8)
-        for i in l:
-            for j in dd[i]:
-                print(j, i, count // 8 + 1)
-                x += i * (count // 8 + 1)
-                count += 1
-                print(x)
+if __name__ == "__main__":
+    directory = input("Enter the directory path (or leave blank for current directory): ") or '.'
+    list_directory(directory)
 
-        return x-1
