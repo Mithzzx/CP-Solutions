@@ -72,6 +72,7 @@ def command_line_interface():
             break
 
         else:
+            
             print("Invalid command or syntax. Please try again.")
 
 # Uncomment the line below to run the simulator
