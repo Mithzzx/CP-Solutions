@@ -16,5 +16,6 @@ class Solution:
             p.next = x.pop(-1)
             p.next.next = x.pop(0)
             p = p.next.next
+            
         print("hello ")
             
