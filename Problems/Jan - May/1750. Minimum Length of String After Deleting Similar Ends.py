@@ -10,7 +10,6 @@ class Solution:
 
         return rp - lp + 1
 
-
 S = Solution()
 print(S.minimumLength("cabaabacc"))
 print(S.minimumLength("aabccabba"))
