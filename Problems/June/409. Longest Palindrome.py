@@ -12,5 +12,4 @@ class Solution:
             if single and i == 1:
                 single = False
                 x += 1
-
         return x
