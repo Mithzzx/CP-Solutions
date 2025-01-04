@@ -8,6 +8,7 @@ sleep(3)
 
 l = len(x)
 p = 0
+
 c = 0
 
 for i in x:
