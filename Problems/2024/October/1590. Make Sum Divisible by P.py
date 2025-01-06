@@ -14,6 +14,7 @@ def smallest_subarray_sum(nums, target):
                 min_subarray = nums[start:end + 1]
             current_sum -= nums[start]
             start += 1
+            
     if min_subarray == []:
         return [-1]
     return min_subarray
