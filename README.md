@@ -3,7 +3,6 @@ Hi! this repo showcases my problem-solving skills through solutions to competiti
 
 ## Highlights
 Check out my best work in the `highlights/` folder:
-- **[Two Sum](highlights/TwoSum_LeetCode.cpp)**: Efficient hashmap solution (O(n)).
 - **[BFS Grid](highlights/BFS_Grid_Practice.cpp)**: Graph traversal with clean implementation.
 - **[Social Network](highlights/SocialNetwork_Codeforces_1234B.cpp)**: Contest problem with sliding window.
 
@@ -19,7 +18,7 @@ Check out my best work in the `highlights/` folder:
 - Clean, commented code with complexity analysis.
 
 ## Contact
-- LinkedIn: [your-linkedin-link]
-- Email: [your-email]
+- [LinkedIn](https://www.linkedin.com/in/mithun-rajan-/)
+- [Email](mithunrajan77@gmail.com)
 
 Explore the `highlights/` folder or `docs/problem_index.md` for a full list!
