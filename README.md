@@ -1,6 +1,10 @@
 # Competitive Programming Portfolio
 Hi! this repo showcases my problem-solving skills through solutions to competitive programming problems from Codeforces, CodeChef, LeetCode, and personal practice.
 
+![Static Badge](https://img.shields.io/badge/Problems%20Solved%20-%20500%2B-blue)
+
+
+
 ## Highlights
 Check out my best work in the `highlights/` folder:
 - **[BFS Grid](highlights/BFS_Grid_Practice.cpp)**: Graph traversal with clean implementation.
