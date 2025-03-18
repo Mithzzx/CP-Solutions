@@ -1,7 +1,5 @@
-# Problem: CodeChef Even-tual Reduction
-# Link: https://www.codechef.com/problems/EVENTUAL
-# Time Complexity: O(n)
-# Space Complexity: O(n)
+# Problem: CodeChef Even-tual Reduction https://www.codechef.com/problems/EVENTUAL
+# Time Complexity: O(n), Space Complexity: O(n)
 # Approach: Count the frequency of each character and check if the frequency of each character is even or not
 # Data Structure: Dictionary
 
