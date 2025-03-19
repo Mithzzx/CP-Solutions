@@ -1,4 +1,4 @@
-# Problem: https://www.codechef.com/problems/EZSPEAK
+# Problem: Easy Pronunciation https://www.codechef.com/problems/EZSPEAK
 # Approach: Check if the string contains 4 consecutive consonants
 # Time Complexity: O(n), Space Complexity: O(1)
 # Data Structure: Set
